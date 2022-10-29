@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modals</title>
+  <link rel="stylesheet" href="../modal/modal.css">
+</head>
+<body>
+  
+  <button type="button" class="modal-btn" data-target="modal1">
+    Open modal 1
+  </button>
+  <button type="button" class="modal-btn" data-target="modal2">
+    Open modal 2
+  </button>
+
+  <div class="backdrop" id="modal1">
+    <div class="modal">
+      <p>Modal 1 Content</p>
+      <button type="button" class="modal-close">
+        Modal Close
+      </button>
+    </div>
+  </div>
+
+  <div class="backdrop" id="modal2">
+    <div class="modal">
+      <p>Modal 2 Content</p>
+      <button type="button" class="modal-close">
+        Modal Close
+      </button>
+    </div>
+  </div>
+
+  <script src="./multi-modal.js"></script>
+</body>
+</html>
